@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/6/5 11:05:12。
+     1>项目“E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Series\Series.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Series.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SerialUtils.cpp
+         SerialUtils.cpp
+     1>e:\项目资料\上位机\testbyyu\seriesmfc\series\series\serialutils.cpp(252): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Debug\Series.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Debug\Series.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Debug\Series.lib" /MACHINE:X86 Debug\Series.res
+         Debug\FileUtils.obj
+         Debug\SerialUtils.obj
+         Debug\Series.obj
+         Debug\SeriesDlg.obj
+         Debug\stdafx.obj
+         Debug\tchart1.obj
+         Series.vcxproj -> E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Debug\Series.exe
+     1>已完成生成项目“E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Series\Series.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.73

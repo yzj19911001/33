@@ -1,0 +1,23 @@
+﻿生成启动时间为 2019/9/12 11:15:48。
+     1>项目“E:\项目资料\上位机\TestByYu\NetTest\NetTest\NetTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\NetTest.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\NetTest.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt NetTest.cpp NetTestDlg.cpp
+         NetTest.cpp
+         NetTestDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\项目资料\上位机\TestByYu\NetTest\Release\NetTest.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\项目资料\上位机\TestByYu\NetTest\Release\NetTest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\项目资料\上位机\TestByYu\NetTest\Release\NetTest.lib" /MACHINE:X86 /SAFESEH Release\NetTest.res
+         Release\NetTest.obj
+         Release\NetTestDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         NetTest.vcxproj -> E:\项目资料\上位机\TestByYu\NetTest\Release\NetTest.exe
+     1>已完成生成项目“E:\项目资料\上位机\TestByYu\NetTest\NetTest\NetTest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.39

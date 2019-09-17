@@ -1,0 +1,32 @@
+﻿生成启动时间为 2019/5/24 17:32:17。
+     1>项目“E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Series\Series.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Series.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Series.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FileUtils.cpp SerialUtils.cpp Series.cpp SeriesDlg.cpp
+         FileUtils.cpp
+     1>FileUtils.cpp(105): warning C4244: “return”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+         SerialUtils.cpp
+     1>SerialUtils.cpp(252): warning C4018: “<”: 有符号/无符号不匹配
+         Series.cpp
+         SeriesDlg.cpp
+     1>SeriesDlg.cpp(496): warning C4244: “=”: 从“ULONGLONG”转换到“int”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\Series.res" Series.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Release\Series.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Release\Series.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Release\Series.lib" /MACHINE:X86 /SAFESEH Release\Series.res
+         Release\FileUtils.obj
+         Release\SerialUtils.obj
+         Release\Series.obj
+         Release\SeriesDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         Series.vcxproj -> E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Release\Series.exe
+     1>已完成生成项目“E:\项目资料\上位机\TestByYu\SeriesMFC\Series\Series\Series.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.42
